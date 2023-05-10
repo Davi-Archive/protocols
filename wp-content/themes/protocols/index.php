@@ -21,9 +21,7 @@ get_header()
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
 										<?php the_content(); ?>
-									</tr>
 								</tbody>
 							</table>
 						</div>

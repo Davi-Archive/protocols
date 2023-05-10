@@ -24,9 +24,7 @@ $query = new WP_Query($args);
                 <button class="button-black">
                   <?php the_title() ?>
                 </button>
-
               </a>
-
           <?php endwhile;
           endif; ?>
           </section>

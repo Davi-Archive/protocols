@@ -162,7 +162,7 @@ tbody tr:hover {
   cursor: pointer;
 }
 .column1 {
-  width: 20%;
+  width: 15%;
   padding-left: 40px;
 }
 .column2 {
@@ -220,22 +220,22 @@ tbody tr:hover {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "Medicamento";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
+    content: "Dosagem";
   }
   table tbody tr td:nth-child(3):before {
-    content: "Name";
+    content: "Quantidade";
   }
   table tbody tr td:nth-child(4):before {
-    content: "Price";
+    content: "Horas";
   }
   table tbody tr td:nth-child(5):before {
-    content: "Quantity";
+    content: "Máximo";
   }
   table tbody tr td:nth-child(6):before {
-    content: "Total";
+    content: "Recomendação";
   }
   .column4,
   .column5,
