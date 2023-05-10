@@ -7,4 +7,63 @@ Description: Tema criado para Davi.
 Version: 1.0
 */
 
-@import "css/main.css";
+@import "css/table.css";
+
+.title {
+  font-size: 4rem;
+  text-align: center;
+  color: #fcedd8;
+  margin: 15px;
+  font-family: "Helvetica", cursive;
+  font-weight: 700;
+  text-shadow: 2px 4px 0px #1c1c1c;
+}
+
+.full-column {
+  width: 100%;
+  text-align: center;
+}
+
+.home-link .button-black {
+  display: flex;
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 10px 0;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  align-items: center;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-home {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+
+.home-link {
+  display: flex;
+  width: 100%;
+}
+
+.home-link .button-black:hover,
+.home-link .button-black:focus {
+  opacity: 0.75;
+}
