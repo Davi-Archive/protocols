@@ -4,13 +4,15 @@ get_header();
 $args = array(
   'post_type' => 'post',
   'posts_per_page' => 10,
+  'orderby' => 'date',
+  'order' => 'ASC'
 );
 $query = new WP_Query($args);
 ?>
 
 
 <div class="limiter">
-  <div class="container-table100">
+  <div class="container-homepage">
     <div class="wrap-table100">
 
       <div class="table100">
